@@ -1,0 +1,7 @@
+name: Backend CI/CD pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
